@@ -9,7 +9,7 @@
 #include "mdv_serial.h"
 
 #define MDV_DATA_LEN 16
-#define MDV_BAUD_RATE B4800
+#define MDV_BAUD_RATE B115200
 
 static int mdv_serial_wait_for_header(int fd, unsigned char *buf);
 
